@@ -6,8 +6,14 @@ brew install --cask \
   visual-studio-code \
   sublime-text \
   postman \
-  royal-tsx \
-  aldente \
   rectangle \
-  vlc
+  vlc \
+  skype \
+  zalo \
+  telegram \
+  evkey \ 
+  microsoft-remote-desktop \ 
+  the-unarchiver \
+  termius \
+  bitwarden
 ```
