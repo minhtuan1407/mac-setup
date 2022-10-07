@@ -11,8 +11,8 @@ brew install --cask \
   skype \
   zalo \
   telegram \
-  evkey \ 
-  microsoft-remote-desktop \ 
+  evkey \
+  microsoft-remote-desktop \
   the-unarchiver \
   termius \
   bitwarden
