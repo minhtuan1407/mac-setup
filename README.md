@@ -67,13 +67,17 @@
 - Tags -> Disable all
 - Advanced \
   - Showw all filename extensions -> Enable
-  - Remove items from the Trash aftern 30 days
+  - Remove items from the Trash after 30 days
 ```
 
 ## Terminal
 ### Install homebrew
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+```
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/minhtuan1407/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv)"
 ```
 ```
 brew update
@@ -126,6 +130,10 @@ curl -sS https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/install.sh | 
 ```
 echo 'eval "$(zoxide init zsh)"' >> ~/.zshrc
 ```
+### Install rosetta2
+```
+/usr/sbin/softwareupdate --install-rosetta --agree-to-license
+```
 ### Git setup
 ```
 git config --global user.name "minhtuan1407"
@@ -136,4 +144,20 @@ git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Crese
 ```
 ```
 git config --global init.defaultBranch main
+```
+### Setup hostname
+```
+sudo scutil --set ComputerName "minhtuan1407"
+sudo scutil --set LocalHostName "minhtuan1407"
+sudo scutil --set HostName "minhtuan1407"
+```
+### Setup system preferences
+```
+defaults write com.apple.screencapture type jpg
+defaults write com.apple.Preview ApplePersistenceIgnoreState YES
+chflags nohidden ~/Library
+defaults write com.apple.finder AppleShowAllFiles YES
+defaults write com.apple.finder ShowPathbar -bool true
+defaults write com.apple.finder ShowStatusBar -bool true
+killall Finder;
 ```
