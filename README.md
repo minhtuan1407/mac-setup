@@ -2,7 +2,7 @@
 ## System Settings
 ### Desktop & Dock
 ```
-- Size -> 1/5 total size
+- Size -> 1/5
 - Magnification -> Disable
 - Automatically hide and show the Dock -> Enable
 - Show recent applications in Dock -> Disable
@@ -41,6 +41,12 @@
 - FileVault -> Turn On
 - Screen Recording -> Add Chrome
 ```
+### Trackpad
+```
+Tracking speed -> 9/10
+Tap to click -> Enable
+```
+
 ## Finder
 ```
 - Sidebar \
