@@ -43,8 +43,19 @@
 ```
 ### Trackpad
 ```
-Tracking speed -> 9/10
-Tap to click -> Enable
+- Tracking speed -> 9/10
+- Tap to click -> Enable
+```
+### Keyboard
+```
+- Key repeat rate -> 7/7
+- Delay until repeat -> 5/5
+```
+### Accessibility
+```
+- Pointer Control \
+  - Trackpad Options... \
+    - Scroll speed -> 6/8
 ```
 
 ## Finder
@@ -58,6 +69,16 @@ Tap to click -> Enable
   - Showw all filename extensions -> Enable
   - Remove items from the Trash aftern 30 days
 ```
+
+## Terminal
+### Install homebrew
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+```
+brew update
+```
+### Install app
 ```
 brew install --cask \
   google-chrome  \
@@ -65,14 +86,54 @@ brew install --cask \
   visual-studio-code \
   sublime-text \
   postman \
-  rectangle \
   vlc \
-  skype \
   zalo \
   telegram \
   evkey \
   microsoft-remote-desktop \
   the-unarchiver \
-  termius \
   bitwarden
+```
+```
+brew install \
+  wget \
+  git \
+  exa
+```
+### Install oh my zsh
+```
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+```
+omz update
+```
+```
+brew install \
+  zsh-autosuggestions \
+  zsh-syntax-highlighting
+```
+### Install starship
+```
+brew install starship
+```
+```
+echo 'eval "$(starship init zsh)"' >> ~/.zshrc
+```
+### Install zoxide
+```
+curl -sS https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/install.sh | bash
+```
+```
+echo 'eval "$(zoxide init zsh)"' >> ~/.zshrc
+```
+### Git setup
+```
+git config --global user.name "minhtuan1407"
+git config --global user.email "m.tuan9a2@gmail.com"
+```
+```
+git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+```
+```
+git config --global init.defaultBranch main
 ```
