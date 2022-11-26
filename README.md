@@ -96,7 +96,8 @@ brew install --cask \
   evkey \
   microsoft-remote-desktop \
   the-unarchiver \
-  bitwarden
+  bitwarden \
+  alt-tab
 ```
 ```
 brew install \
