@@ -114,7 +114,8 @@ omz update
 ```
 brew install \
   zsh-autosuggestions \
-  zsh-syntax-highlighting
+  zsh-syntax-highlighting \
+  zsh-completions
 ```
 ### Install starship
 ```
@@ -160,4 +161,8 @@ defaults write com.apple.finder AppleShowAllFiles YES
 defaults write com.apple.finder ShowPathbar -bool true
 defaults write com.apple.finder ShowStatusBar -bool true
 killall Finder;
+```
+## Iterm2
+```
+
 ```
