@@ -6,7 +6,7 @@
 - Magnification -> Disable
 - Automatically hide and show the Dock -> Enable
 - Show recent applications in Dock -> Disable
-- hot Corners... \
+- Hot Corners... \
   - Disable all
 ```
 ### Display
