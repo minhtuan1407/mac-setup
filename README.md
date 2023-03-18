@@ -57,6 +57,23 @@
   - Trackpad Options... \
     - Scroll speed -> 6/8
 ```
+### Battery
+```
+- Options \
+  - Wake for network access -> Only on Power Adapter
+  - Optimize video streaming while on battery
+```
+### Control Center
+```
+- Battery \
+  - Show Percentage -> Enable
+- Keyboard Brightness \
+  - Show in Control Center -> Enable
+- Clock \
+  - Clock Options \
+  - Display time with seconds -> Enable
+- Spotlight -> Don't Show in Menu Bar
+```
 
 ## Finder
 ```
