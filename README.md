@@ -85,7 +85,6 @@ brew update
 ### Install app
 ```
 brew install --cask \
-  google-chrome  \
   iterm2 \
   visual-studio-code \
   sublime-text \
@@ -97,7 +96,10 @@ brew install --cask \
   microsoft-remote-desktop \
   the-unarchiver \
   bitwarden \
-  alt-tab
+  alt-tab \
+  authy \
+  viber \
+  zoom
 ```
 ```
 brew install \
