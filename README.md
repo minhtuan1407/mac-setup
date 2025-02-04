@@ -20,6 +20,7 @@
 ```
 ### Touch ID & Password
 ```
+curl -sL git.io/sudo-touch-id | sudo sh
 ```
 ### Notifications
 ```
