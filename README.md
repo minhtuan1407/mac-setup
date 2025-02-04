@@ -180,6 +180,8 @@ chflags nohidden ~/Library
 defaults write com.apple.finder AppleShowAllFiles YES
 defaults write com.apple.finder ShowPathbar -bool true
 defaults write com.apple.finder ShowStatusBar -bool true
+defaults write com.apple.desktopservices DSDontWriteNetworkStores true
+defaults write com.apple.desktopservices DSDontWriteUSBStores -bool true
 killall Finder;
 ```
 ## Iterm2
