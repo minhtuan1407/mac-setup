@@ -189,3 +189,15 @@ killall Finder;
 ```
 
 ```
+## Disable and enable Spotlight index to clean up /System/Volumes/Data/.Spotlight-V100
+```
+sudo mdutil -a -i off
+sudo mdutil -a -i on
+sudo mdutil -E
+```
+## Disable and enable creating of .DS_Store
+```
+defaults write com.apple.desktopservices DSDontWriteNetworkStores true
+defaults write com.apple.desktopservices DSDontWriteNetworkStores false
+
+```
